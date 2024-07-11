@@ -101,7 +101,9 @@
           </div>
         </div>
       </section>
-      <section id="inspiration">
+      <section
+        id="inspiration"
+        class="flex flex-column">
         <div class="heading">
           <h2 class="title">My Inspiration</h2>
           <p class="description">
@@ -109,9 +111,19 @@
             industry. Lorem Ipsum has been the industry's standard dummy text.
           </p>
         </div>
-        <div class="video"></div>
+        <div class="video">
+          <iframe
+            src="https://www.youtube.com/embed/JUwePydwbUI?si=AGDGYaU0VYGE4YSx"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen></iframe>
+        </div>
       </section>
-      <section id="current-target">
+      <section
+        id="current-target"
+        class="flex flex-column">
         <div class="heading">
           <h2 class="title">My Current Target</h2>
           <p class="description">
@@ -119,21 +131,19 @@
             industry. Lorem Ipsum has been the industry's standard dummy text.
           </p>
         </div>
-        <div class="cards">
+        <div class="cards flex">
           <div class="card">
-            <div class="content">
-              <div class="image">
-                <img
-                  src="./images/html.png"
-                  alt="" />
-              </div>
-              <h3 class="title">HTML</h3>
-              <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry.
-              </p>
-              <a href="Learn more"></a>
+            <div class="image">
+              <img
+                src="./images/html.png"
+                alt="" />
             </div>
+            <h3 class="title">HTML</h3>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry.
+            </p>
+            <a href="#">Learn More</a>
           </div>
           <div class="card">
             <div class="image">
@@ -141,14 +151,13 @@
                 src="./images/css.png"
                 alt="" />
             </div>
-            <div class="content">
-              <h3 class="title">CSS</h3>
-              <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry.
-              </p>
-              <a href="Learn more"></a>
-            </div>
+
+            <h3 class="title">CSS</h3>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry.
+            </p>
+            <a href="#">Learn More</a>
           </div>
           <div class="card">
             <div class="image">
@@ -156,19 +165,20 @@
                 src="./images/js.png"
                 alt="" />
             </div>
-            <div class="content">
-              <h3 class="title">JavaScript</h3>
-              <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry.
-              </p>
-              <a href="Learn more"></a>
-            </div>
+
+            <h3 class="title">JavaScript</h3>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry.
+            </p>
+            <a href="#">Learn More</a>
           </div>
         </div>
       </section>
 
-      <section id="next-target">
+      <section
+        id="next-target"
+        class="flex flex-column">
         <div class="heading">
           <h2 class="title">My Next Target</h2>
           <p class="description">
@@ -176,7 +186,7 @@
             industry. Lorem Ipsum has been the industry's standard dummy text.
           </p>
         </div>
-        <div class="cards">
+        <div class="cards flex flex-column">
           <div class="card">
             <div class="image">
               <img
@@ -189,7 +199,7 @@
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry.
               </p>
-              <a href="Learn more"></a>
+              <a href="#">Learn More</a>
             </div>
           </div>
           <div class="card">
@@ -204,7 +214,7 @@
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry.
               </p>
-              <a href="Learn more"></a>
+              <a href="#">Learn More</a>
             </div>
           </div>
           <div class="card">
@@ -219,52 +229,55 @@
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry.
               </p>
-              <a href="Learn more"></a>
+              <a href="#">Learn More</a>
             </div>
           </div>
         </div>
       </section>
 
       <section id="support">
-        <div class="heading">
-          <h2 class="title">My Next Target</h2>
-          <p class="description">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text.
-          </p>
+        <div class="content-wrapper flex flex-column">
+          <div class="heading">
+            <h2 class="title">My Next Target</h2>
+            <p class="description">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text.
+            </p>
+          </div>
+          <div id="form">
+            <form action="#">
+              <input
+                type="text"
+                name="feedback"
+                id="feedback"
+                placeholder="Suggest me any feedback for me" />
+              <input
+                type="submit"
+                value="Submit" />
+            </form>
+          </div>
         </div>
-
-        <form action="#">
-          <input
-            type="text"
-            name="feedback"
-            id="feedback" />
-          <input
-            type="submit"
-            value="Submit" />
-        </form>
       </section>
-
-      <footer>
-        <p>Assignment by Mahmud Imran</p>
-        <div class="social">
-          <a href="#">
-            <img
-              src="./images/facebook.png"
-              alt="Facebook" />
-          </a>
-          <a href="#">
-            <img
-              src="./images/github.png"
-              alt="Github" />
-          </a>
-          <a href="#">
-            <img
-              src="./images/linkedin-icon 1.png"
-              alt="LinkedIn" />
-          </a>
-        </div>
-      </footer>
     </main>
+    <footer>
+      <p>Assignment by Mahmud Imran</p>
+      <div class="social">
+        <a href="#">
+          <img
+            src="./images/facebook.png"
+            alt="Facebook" />
+        </a>
+        <a href="#">
+          <img
+            src="./images/github.png"
+            alt="Github" />
+        </a>
+        <a href="#">
+          <img
+            src="./images/linkedin-icon 1.png"
+            alt="LinkedIn" />
+        </a>
+      </div>
+    </footer>
   </body>
 </html>

@@ -178,3 +178,153 @@ nav a {
   padding: 12px 20px;
   align-self: start;
 }
+
+#inspiration {
+  margin: 40px auto;
+  align-items: center;
+  gap: 48px;
+}
+
+#inspiration .video {
+  display: flex;
+  border-radius: 16px;
+  padding: 32px;
+  border: 1px solid rgba(13, 19, 33, 0.2);
+  width: 100%;
+  justify-content: center;
+}
+
+#inspiration .video iframe {
+  display: flex;
+  width: 100%;
+  height: 600px;
+}
+
+#current-target,
+#next-target,
+#support {
+  margin: 120px auto;
+  align-items: center;
+  gap: 48px;
+}
+
+#current-target .cards {
+  display: flex;
+  gap: 24px;
+}
+
+#current-target .card {
+  padding: 40px;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+#current-target .card .title,
+#next-target .card .title {
+  font-size: 24px;
+  line-height: 36px;
+  color: #0d1321;
+}
+
+#current-target .card p,
+#next-target .card p {
+  font-size: 16px;
+  line-height: 26px;
+  opacity: 0.7;
+}
+#current-target .card a,
+#next-target .card a {
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: underline;
+  color: #0d1321;
+}
+#current-target .card:nth-child(1) {
+  background-color: rgba(255, 76, 30, 0.05);
+}
+#current-target .card:nth-child(2) {
+  background-color: rgba(0, 76, 232, 0.05);
+}
+#current-target .card:nth-child(3) {
+  background-color: rgba(255, 223, 0, 0.05);
+}
+
+#next-target .cards {
+  gap: 24px;
+  width: 100%;
+}
+
+#next-target .card {
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 16px;
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+#next-target .card .content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+#support {
+  background-image: url("/images/handshake.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  border-radius: 16px;
+}
+
+#support .content-wrapper {
+  border-radius: 16px;
+  padding: 64px 48px;
+  background-color: rgba(0, 0, 0, 0.6);
+  justify-content: center;
+  gap: 16px;
+}
+
+#support .content-wrapper .title {
+  color: #fff;
+}
+
+#support .content-wrapper .description {
+  color: #fff;
+  opacity: 0.7;
+}
+
+#support .content-wrapper #form {
+  display: flex;
+  justify-content: center;
+}
+
+#form input[type="text"],
+#form input[type="submit"] {
+  padding: 19px 20px;
+  border-radius: 8px;
+  font-family: "Azeret Mono", monospace;
+  font-size: 16px;
+}
+
+#form input[type="text"] {
+  width: 600px;
+}
+
+#form input[type="submit"] {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  color: #0d1321;
+  font-weight: 700;
+  background-color: rgba(13, 19, 33, 0.03);
+  padding: 32px 250px;
+}
